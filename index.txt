@@ -1,0 +1,10 @@
+mkdir directories
+cd directories
+python3 -m venv .venv
+. .venv/bin/activate
+pip3 install django
+python -m django version
+pip3 install djangorestframework
+django-admin
+django-admin startproject djangoCourse .
+python3 manage.py runserver
